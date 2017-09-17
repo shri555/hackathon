@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shrikrishna.coep.MainActivity">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20dp"
+    android:visibility="gone"
+    android:id="@+id/timertext"/>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/mylinear"
+    android:visibility="gone"
+    android:layout_below="@+id/timertext">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:text="Select Radius"/>
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/seek123"
+        android:min="2"
+        android:max="10"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radtext"
+        android:textSize="20dp"
+        android:text="5 KM"/>
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:min="5"
+        android:layout_height="wrap_content"
+        android:id="@+id/seektime"
+        android:max="120"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/timett"
+        android:textSize="20dp"
+        android:text="5 min"/>
+</LinearLayout>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:textColor="#fff"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="100dp"
+    android:id="@+id/viewpickup"
+    android:layout_centerHorizontal="true"
+    android:text="View Pickup"/>
+</RelativeLayout>

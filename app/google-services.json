@@ -1,0 +1,130 @@
+{
+  "project_info": {
+    "project_number": "780159765354",
+    "firebase_url": "https://myschool-98f8f.firebaseio.com",
+    "project_id": "myschool-98f8f",
+    "storage_bucket": "myschool-98f8f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780159765354:android:ff6409ce87cc1076",
+        "android_client_info": {
+          "package_name": "com.innotechway.myschool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "780159765354-t63rraipqno3ekeanosol5is4jqm0igm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmea4ScV3Bp9X7xWoHe3GTa98UGpXH0a0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780159765354:android:57eafad3d4f1b0d6",
+        "android_client_info": {
+          "package_name": "com.example.shrikrishna.coeppick_up"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "780159765354-gq88kpcc2toepcs34tjupv3ccrpcge1e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shrikrishna.coeppick_up",
+            "certificate_hash": "96ca918a75d9a5322c30f4f06944ccbba63e1da3"
+          }
+        },
+        {
+          "client_id": "780159765354-t63rraipqno3ekeanosol5is4jqm0igm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmea4ScV3Bp9X7xWoHe3GTa98UGpXH0a0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "780159765354-t63rraipqno3ekeanosol5is4jqm0igm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780159765354:android:541a93c48de28b46",
+        "android_client_info": {
+          "package_name": "com.example.shrikrishna.coep"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "780159765354-2s1u5msl27cl2eei4ql4og5q27bpo455.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shrikrishna.coep",
+            "certificate_hash": "96ca918a75d9a5322c30f4f06944ccbba63e1da3"
+          }
+        },
+        {
+          "client_id": "780159765354-t63rraipqno3ekeanosol5is4jqm0igm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmea4ScV3Bp9X7xWoHe3GTa98UGpXH0a0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "780159765354-t63rraipqno3ekeanosol5is4jqm0igm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
